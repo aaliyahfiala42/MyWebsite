@@ -1,0 +1,69 @@
+body{
+  background-color: white;
+  color: black;
+
+}
+
+.button {
+  background-color: silver;
+  border: none;
+  color: #040f0f;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.header {
+  left: 0;
+  padding-top: 1px;
+  width: 100%;
+  #padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: white;
+  vertical-align: middle;
+  color: #040f0f;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  vertical-align: middle;
+  color: #040f0f;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  background-color: #e5e1d0;
+  color: black;
+}
+
+.border {
+  width: 100%;
+  background-color: #e5e1d0;
+  border-color: black;
+  border-style: double;
+}
+h1 { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+h3 { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+p { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+blockquote { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+pre { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
