@@ -4,6 +4,7 @@
   background-color: #4a0606;
   color:  #eeebe1;
   overflow: hidden;
+  font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
 }
 
 /* Style the links inside the navigation bar */
