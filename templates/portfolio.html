@@ -12,19 +12,200 @@
 
 </head>
 <body>
+<!-- Header -->
+<div class="header">
+    <div class="row">
+        <img src = "../static/img/Logo.PNG" style="width: 50px">
+        <h3 style="padding-top: 4px"> Aaliyah Hänni </h3>
+    </div>
+</div>
   <!-- Navigation Bar -->
-  <div class="topnav">
-  	<a href="/about">About</a>
-  	<a class="active" href="/portfolio">Portfolio</a>
+<div class="topnav">
+	<a href="/home">Home</a>
+	<a class="active" href="/portfolio">Portfolio</a>
     <a href="/resume">Résumé</a>
-  	<a href="/contact">Contact</a>
-  </div>
+	<a href="/contact">Contact</a>
+</div>
 
 <h1 align="center"> Portfolio </h1>
 
 <!-- Main Content-->
+<div class="border">
+<div class="content" align="left">
+    <div>
+        <h1>Brain Scan Tumor Classification using a Convolutional Neural Network</h1>
+        <p>
+            The Brain Scan Tumor Classification is a machine learning project created by myself and my fellow academic
+            colleagues that classifies 2D brain scan images as tumorous or not.
+            Our website allows users to upload their own (.jpg, jpeg, or .png) photos into the model,
+            and get a prediction result. For this project, we are using a 2D Convolutional Neural Network with nine
+            hidden layers to classify 2D MRI brain scan images as tumorous or non-tumorous.
+            Our model was built with Tensorflow, utilizing the Keras API. Our model's input is composed of standardized
+            240x240x1 single-channel image arrays.
+            After training, an image passed to the model will produce a prediction of either 1 (tumorous)
+            or 0 (non-tumorous).
+        </p>
+        </br>
+        <figure align="center">
+            <img src = "../static/img/brain_predict.png" style="width: 50%">
+            <figcaption><p>An image of our final website: "Do I have a Tumor?"</p></figcaption>
+        </figure>
+        </br>
+        <figure align="center">
+            <img src = "../static/img/brain.gif" style="width: 50%">
+            <figcaption><p>An example 3D MRI Brain Scan image</p></figcaption>
+        </figure>
+        </br>
+        <p>
+            Project Link: <a href="https://github.com/aaliyahfiala42/DATA515-Brain-Scan-Classification">GitHub</a>
+        </p>
+        <p>
+            Dataset: <a href="https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection">Kaggle Brain
+            MRI Images for Brain Tumor Classification</a>
+        </p>
+        </br>
+    </div>
+</div>
+</div>
+
+</br>
+</br>
+
+<div class="border">
+<div class="content" align="left">
+    <div>
+        <h1>Funding a Start-up: Evaluating the Business Impact of Funding Types, Sources, Amounts and Timing</h1>
+        </br>
+        <p>
+        This study reviews several questions of interest for entrepreneurs as well as investors about Start-up
+        organizations. We performed our analysis using the Kaggle dataset from Crunchbase’s 2014 snapshot,
+        which includes approximately 50,000 companies. We found that the average amount of money raised,
+        and the average number of funding rounds, both vary by industry.
+        We concluded that the average amount of seed money invested is increasing 13.5% annually.
+        We also found, controversially, that companies that did not have seed rounds are 4 times more likely
+        to have a venture round. Our results should be received with caution, as our dataset included strong
+        survivorship, regional, and market bias.
+        </p>
+        </br>
+        <figure align="center">
+            <img src = "../static/img/startup%20analysis.PNG" style="width: 50%">
+            <figcaption><p>A Comparison of Startup Funding Amounts Overtime</p></figcaption>
+        </figure>
+        </br>
+        <p>
+            Project Report: <a href="../static/docs/Startup.pdf">Funding a Start-up</a>
+        </p>
+        <p>
+            Project Link: <a href="https://github.com/kevSweet/Startup-Analysis">GitHub</a>
+        </p>
+        <p>
+            Dataset: <a href="https://www.kaggle.com/arindam235/startup-investments-crunchbase/discussion/226312">
+            StartUp Investments (Crunchbase)</a>
+        </p>
+        </br>
+    </div>
+
+</div>
+</div>
+
+</br>
+</br>
+
+<div class="border">
+<div class="content" align="left">
+    <div>
+        <h1>Visualizing Space Pollution</h1>
+        <p>There is an astonishing amount of objects in space. According to the European Space Agency,
+            the number of debris objects in orbit: 34,000 for space objects that have a size greater than 10 cm,
+            900,000 for objects that have a size between 1 to 10 cm and 128,000,00 for objects that have a size between
+            1mm to 1cm (“Distribution of Space Debris in Orbit around Earth.”, ESA).
+            </br>
+            In this project, we are interested in learning about man-made objects in Earth orbits and the
+            space pollution associated with them. We care because space junk can impact satellites,
+            causing network outages and costly damage. It will also impact future launches and global satellite
+            internet endeavors. By definition space junk is defined as any piece of debris that is left in space by
+            humans. There are no limits on size, and our space junk includes everything from satellites that no longer
+            work, to paint flecks.
+            </br>
+            We use data mainly from Space-Track.org, a free access, excel exportable data source that also offers
+            APIs to do data analysis and create corresponding visualizations in order to answer the following questions:
+            <ul>
+                <li>
+                    <p>Where did all of the space junk come from?  </p>
+                </li>
+                <li>
+                   <p> How big is the space junk?  </p>
+                </li>
+                <li>
+                    <p>What percentage of the earth’s orbits are filled with junk?  </p>
+                </li>
+                <li>
+                   <p> How has the amount of space junk changed over time and what will it look like in the future?   </p>
+                </li>
+            </ul>
+        </p>
+        </br>
+    </div>
+    <div style="position: center;">
+        <div class='tableauPlaceholder' id='viz1619311087086' style='position: center;'><noscript><a href='http:&#47;&#47;aaliyahhanni.pythonanywhere.com&#47;'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpacePollution&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='width: 50%; display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SpacePollution&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpacePollution&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619311087086');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) {vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+     </br>
+        <p>
+            Project Report: <a href="../static/docs/Space%20Pollution.pdf">Space Pollution</a>
+        </p>
+        <p>
+            Project Link: <a href="https://public.tableau.com/profile/aaliyah.fiala#!/vizhome/Man-MadeObjectsinEarthOrbits/Man-MadeObjectsinEarthOrbits?publish=yes ">Tableau</a>
+        </p>
+        <p>
+            Dataset: <a href="https://www.space-track.org/">
+            Space-Track.org</a>
+        </p>
+        </br>
+</div>
+</div>
+
+</br>
+</br>
+
+<div class="border">
+<div class="content" align="left">
+    <div>
+        <h1>Generating the Euler Phi Function using A Specific Binary Tree</h1>
+        <p>
+        Professor Dan Rockwell, Will Wodrich, and I worked together to discover a new way to
+            generate Euler's phi function using sturmian words.
+            The Euler phi function is used in several cyber security algorithms,
+            and we found that our new algorithm had a lower computational complexity.
+            Our findings are referenced in the Encyclopedia of Natural Numbers (Sum of Totient function)
+            and were presented at the Celebrating Undergraduate Excellence research fair.
+        </p>
+        </br>
+    </div>
+        <figure align="center">
+            <img src = "../static/img/Undergrad_Research_Poster.jpg" style="width: 80%">
+        <figcaption><p>An Algorithmic Approach to Generating A Specific Binary Tree Research Poster</p></figcaption>
+        </figure>
+    <p>
+        Research Poster: <a href=../static/docs/Undergrad_Research_Poster.pdf>PDF Version</a>
+    </p>
+    <p>
+        Project Publication: <a href="https://oeis.org/search?q=A02088&language=english&go=Search">The Online Encyclopedia if Integer Sequences</a>
+    </p>
+    <p>
+        Project Link: <a href="https://justtree-4c3dc.firebaseapp.com/">Interactive Mathematical Model</a>
+    </p>
 
 
+</div>
+</div>
 
-</body>
+</br>
+</br>
+<!-- Footer -->
+<div class="footer">
+    <img src = "../static/img/Logo.PNG" style="width: 50px">
+    <p style="font-weight: bold">Aaliyah Hänni</p>
+    <p>P: 360 838 3614</p>
+    <p>E: aaliyahfiala42@gmail.com</p>
+</div></body>
 </html>
