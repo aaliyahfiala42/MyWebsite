@@ -2,15 +2,15 @@
 
 .topnav {
   background-color: #4a0606;
-  color:  #eeebe1;
+  color: #F5F3EC;
   overflow: hidden;
-  font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color:  #eeebe1;
+  color:  #F5F3EC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -19,13 +19,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color:  #eeebe1;
+  background-color: #F5F3EC;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #eeebe1;
+  background-color: #F5F3EC;
   color: black;
 }
 
