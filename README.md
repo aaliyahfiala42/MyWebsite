@@ -17,7 +17,11 @@ embedded content, and basic dynamic functionality.
 ### Instructions to run locally
 1. Copy Git repo to local drive and navigate to \MyWebsite folder
 2. Install the program requirements
+    
     pip install -r requirements.txt
+    
 3. Run the following command in a terminal, to run the website locally
+
     python3 app.py
+    
 4. Open the local host URL provided in the terminal in a browser of your choice
