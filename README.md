@@ -1,7 +1,5 @@
 Author: Aaliyah Hänni
 
-Last Updated Date: 29.10.2022
-
 Website Link: [http://aaliyahhanni.pythonanywhere.com/](aaliyahhanni.pythonanywhere.com)
 
 ## About
